@@ -1,0 +1,69 @@
+#payment {
+    margin-top: 137px;
+    padding: 50px 0;
+
+    .mercadopago {
+        h4 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+        }
+
+        h5 {
+            font-family: "Raleway", sans-serif;
+        }
+
+        form {
+            label {
+                color: #666;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: "Raleway", sans-serif;
+                margin-bottom: 5px;
+            }
+            input,
+            select {
+                padding: 8px 10px;
+                border-color: #ddd;
+                border-width: 1px;
+                color: #666;
+            }
+
+            select{
+                appearance: revert;
+            }
+
+            button {
+                background: #169552;
+                border: none;
+                padding: 8px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                transition: all 0.5s;
+                text-transform: uppercase;
+                &:hover {
+                    background-color: #188049;
+                }
+            }
+
+        }
+    }
+}
+
+#order-confirmation {
+    margin-top: 137px;
+    padding: 50px 0;
+
+    h2 {
+        font-family: "Signika", sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 60px;
+        color: #004a80;
+    }
+
+    p {
+        a {
+            color: #333;
+        }
+    }
+}

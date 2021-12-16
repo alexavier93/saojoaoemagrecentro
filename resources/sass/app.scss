@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Site
+@import 'global';
+@import 'header';
+@import 'pages/home';
+@import 'pages/quemsomos';
+@import 'pages/blog';
+@import 'pages/tratamentos';
+@import 'pages/categories';
+@import 'pages/contato';
+@import 'pages/login';
+@import 'pages/dashboard';
+@import 'pages/cart';
+@import 'pages/checkout';
+@import 'pages/payment';
+@import 'footer';
+@import 'responsive';

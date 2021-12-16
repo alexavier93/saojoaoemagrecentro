@@ -1,0 +1,113 @@
+#cart {
+    margin-top: 137px;
+    padding: 50px 0;
+
+    .table-resume-cart {
+        thead {
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-weight: bold;
+            padding: 1.2rem 2rem;
+            background: #f8f9fa;
+            border-bottom: 1px solid #b7b7b7;
+
+            tr {
+                th {
+                    border: none;
+                    padding: 20px;
+                    text-align: center;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border-bottom: 1px solid #dee2e6;
+
+                td {
+                    padding: 25px 10px;
+                    vertical-align: inherit;
+                    border: none;
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                border-bottom: 1px solid #dee2e6;
+
+                td {
+                    padding: 15px 10px;
+                    vertical-align: inherit;
+                    border: none;
+                }
+            }
+
+            .shipping {
+                border: none;
+            }
+
+            .total {
+                font-size: 16px;
+            }
+
+            .discount {
+                color: #fff;
+            }
+        }
+
+        .column-product {
+            width: 40%;
+        }
+
+        .column-qtd {
+            width: 15%;
+        }
+
+        .column-price {
+            width: 25%;
+        }
+
+        .column-delete {
+            width: 20%;
+        }
+
+        .cart-remove {
+            color: #495057;
+            font-size: 0.7875rem;
+        }
+    }
+
+    .text-sm {
+	    font-size: .7875rem;
+	}
+
+	.cart-header {
+	    text-transform: uppercase;
+	    letter-spacing: 0.2em;
+	    font-weight: bold;
+	    padding: 1.2rem 2rem;
+	    background: #f8f9fa;
+	    border-bottom: 1px solid #b7b7b7;
+	}
+
+	.cart-item {
+	    padding-top: 1.5rem;
+	    padding-bottom: 1.5rem;
+	    border-bottom: 1px solid #b7b7b7;
+
+
+	    .input-items {
+	    	width: 50px;
+	    }	    
+
+	}
+
+	.cart-item-img {
+	    max-width: 80px;
+	}
+
+	.cart-title {
+	    margin-left: 1rem;
+	}
+}

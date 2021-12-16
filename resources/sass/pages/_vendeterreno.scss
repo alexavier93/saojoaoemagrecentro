@@ -1,0 +1,101 @@
+#venda-terreno {
+    position: relative;
+ 
+    .content {
+        padding: 50px 0;
+
+        .box-info {
+            background: $primarycolor;
+            padding: 30px;
+            color: #fff;
+
+            h1 {
+                font-size: 25px;
+            }
+
+            hr {
+                height: 1px;
+                background: #fff;
+                width: 70%;
+                margin: 15px 0px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 24px;
+                color: #fff;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                font-weight: 400;
+                text-decoration: none;
+
+                .phone-box {
+                    display: flex;
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 20px;
+
+                    i {
+                        color: inherit;
+                        font-size: 16px;
+                        margin-top: 2px;
+                    }
+                }
+            }
+        }
+
+        .form-contato {
+            form {
+
+                label {
+                    color: #888;
+                }
+
+                input[type=text], input[type=email] {
+                    background: #f4f4f4;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 14px 10px;
+                    border: none;
+                    line-height: 1em;
+                    height: 3em;
+                }
+
+                .form-check-input:checked {
+                    background-color: $primarycolor;
+                    border-color: $primarycolor;
+                }
+
+                textarea {
+                    background: #f4f4f4;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 14px 10px;
+                    border: none;
+                    line-height: 1em;
+                }
+
+                button {
+                    background: $primarycolor;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 18px 20px;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+}

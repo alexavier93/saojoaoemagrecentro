@@ -1,0 +1,193 @@
+// Responsive
+
+@media (max-width: 1300px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					display: block;
+					padding: 0 30px;
+				}
+			}
+
+			.menu {
+				padding: 0 20px;
+				flex-grow: 0;
+
+				.nav {
+					ul {
+						li > a {
+							padding: 0 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					padding: 0px;
+
+					img {
+						max-height: 50px;
+						max-width: inherit;
+					}
+				}
+			}
+
+			.contato {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	#header {
+		.header-nav {
+			.logo {
+				margin: 20px 0px;
+
+				a {
+					img {
+						max-height: 70px;
+						max-width: inherit;
+					}
+				}
+			}
+
+			.menu {
+				display: none;
+			}
+
+			.loja {
+				display: none;
+			}
+		}
+	}
+
+	#home {
+		.procurados,
+		.lancamentos {
+			.titulo {
+				h2 {
+					width: 35%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 767px) {
+}
+@media (max-width: 650px) {
+}
+
+@media (max-width: 576px) {
+	#home {
+		margin-top: 165px;
+
+		.servicos {
+			.item {
+				margin-bottom: 15px;
+			}
+		}
+
+		.procurados,
+		.lancamentos {
+			.titulo {
+				h2 {
+					background-color: inherit;
+					width: 100%;
+					padding: 0;
+					font-size: 22px;
+				}
+
+				&::before {
+					position: initial;
+				}
+			}
+		}
+	}
+
+	#tratamento-info {
+
+		.header {
+
+			.product-details {
+
+				.product-shop {
+
+					.product-name {
+
+						h1 {
+							font-size: 32px;
+						}
+
+					}
+
+					.short-description {
+						max-width: 100%;
+					}
+
+				}
+
+			}
+		}
+		
+		
+		.content {
+			.product-info {
+				margin-top: 0px;
+
+				.nav-tabs {
+
+					.nav-item {
+						width: 100%;
+						
+						.nav-link {
+							width: 100%;
+							padding: 10px;
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	#header {
+		.header-nav {
+			.logo {
+				.logo-fix {
+					padding: 0px 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+}
+
+@media all and (min-width: 992px) {
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		display: none;
+	}
+	#header .header-nav .menu .nav .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		margin-top: -15px;
+	}
+}

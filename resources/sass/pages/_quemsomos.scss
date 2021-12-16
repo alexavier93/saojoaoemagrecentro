@@ -1,0 +1,51 @@
+#quem-somos {
+    position: relative;
+
+    .content {
+        padding: 50px 0;
+
+        h1 {
+            font-family: "Barlow", sans-serif;
+            color: $primarycolor;
+        }
+
+        h4 {
+            font-family: "Barlow", sans-serif;
+            color: #333;
+
+        }
+
+        .card {
+            border: none;
+            text-align: center;
+            padding: 40px;
+
+            p {
+                text-align: justify;
+            }
+
+
+            ul.list {
+                padding-left: 1rem;
+
+                li {
+                    list-style: none;
+                
+                    &::before {
+                        content: "\2022";
+                        color: $primarycolor;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+
+                }
+
+            }
+
+        }
+
+
+    }
+}

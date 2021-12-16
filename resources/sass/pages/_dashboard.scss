@@ -1,0 +1,29 @@
+#orders_dash {
+    margin-top: 137px;
+    padding: 50px 0;
+
+    .accordion-flush {
+
+        .accordion-item {
+
+            .accordion-button.collapsed {
+                border: 1px solid #ddd;
+            
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: #666;
+                background-color: #e9e9e9;
+            }
+
+            .accordion-collapse {
+                border: 1px solid #ddd;
+                border-top: none;
+            }
+
+        }
+        
+
+
+    }
+}
